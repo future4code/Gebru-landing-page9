@@ -35,24 +35,21 @@
       font-family: 'Indie Flower', cursive;
       color: #fafcfd;
       text-align: center;
-      font-size: 50px;
-      width: 100vw;
+      font-size: 10px;
+     
     
   }
 
 aside{    
-    margin-top: 10px;
+  
    display: grid;
 grid-template-columns: repeat(2, 1fr);
-width: 1900px;
-/* height: max-content; */
+
 }
-/* .imoveis1, #imoveis3, #imoveis5{
-    
-}
-   */
+
 .imoveis{
-    font-size: 30px;
+ 
+    font-size: 25px;
  text-align:center;
    
 

@@ -33,11 +33,10 @@
   
   main{
     background-color: rgb(15, 46, 54);
-      font-family: 'Indie Flower', cursive;
       color: #fafcfd;
       text-align: center;
       font-size: 50px;
-      width: 100vw;
+      width: auto;
   }
 
 #Tipo{
