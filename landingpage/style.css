@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.somos-nos {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.titulo-somos-nos {
+    color: #a1ddf8;
+    font-size: 30px;
+    margin-left: 70px;
+    line-height: 1.5;
+}
+
+.descricao-somos-nos {
+    margin: 30px 90px;
+    color: rgb(110, 102, 102);
+    font-size: 20px;
+    line-height: 2;
+}
+
+.secao-footer {
+    background-color: #3185ac;
+    display: flex;   
+}
+
+.secao-footer > ul {
+    color: white;
+    list-style-type: none;
+    font-size: 15px;
+    margin: 10px 30px 15px 40px;
+    padding: 15px;
+}
+
+.secao-footer li {
+    margin-top: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.lista-redes-sociais {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.lista-redes-sociais li {
+    margin: 0 15px 0 0;
+}
+
+
+.tema-lista {
+    color: #a1ddf8;
+    font-size: 13px;
+}
+
+.lista-redes-sociais img {
+    width: 40px;
+}
+
+.lista-redes-sociais ul {
+    display: flex;
+}
+
+.lista-apps img {
+    width: 140px;
+}
+
+.logo {
+    display: flex;
+   
+}
+
+.logo img {
+    width: 200px;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0a5a80;
+    height: 50px;
+    
+}
+
+footer p {
+    color: #a1ddf8;
+}
+
+footer ul {
+    display: flex;
+    color: white;
+    list-style-type: none;
+    font-size: 13px;
+}
+
+footer li {
+    margin-left: 30px;
+}
