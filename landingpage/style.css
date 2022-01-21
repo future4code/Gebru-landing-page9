@@ -5,43 +5,52 @@
 }
 
 .somos-nos {
+    width: 90vw;
     display: flex;
     flex-direction: row;
-    padding: 50px;
+    padding: 4vw;
 }
 
 .titulo-somos-nos {
-    color: #a1ddf8;
-    font-size: 30px;
-    margin-left: 70px;
-    line-height: 1.5;
+    align-self: center;
+    color: #71c4eb;
+    font-size: 2.5vw;
+    margin-left: 4vw;
+    line-height: 4vw;
+    width: 30vw;
 }
 
 .descricao-somos-nos {
-    margin: 30px 90px;
+    align-self: center;
+    width: 60vw;
+    margin: 2vw 6vw 0 4vw;
+    margin-right: 5vw;
     color: rgb(110, 102, 102);
-    font-size: 20px;
-    line-height: 2;
+    font-size: 1.5vw;
+    line-height: 3vw;
 }
 
 .secao-footer {
+    width: 100vw;
     background-color: #3185ac;
     display: flex;   
 }
 
 .secao-footer > ul {
+    width: 100vw;
     color: white;
     list-style-type: none;
-    font-size: 15px;
-    margin: 10px 30px 15px 40px;
-    padding: 15px;
+    font-size: 1.25vw;
+    margin: 0 3vw;
+    margin-bottom: 2vw;
+    padding: 1vw;
 }
 
 .secao-footer li {
-    margin-top: 20px;
+    margin-top: 1.8vw;
 }
 
-li a {
+.item-lista1 a {
     text-decoration: none;
     color: white;
 }
@@ -53,17 +62,16 @@ li a {
 }
 
 .lista-redes-sociais li {
-    margin: 0 15px 0 0;
+    margin: 0 1vw 0 0;
 }
 
 
 .tema-lista {
     color: #a1ddf8;
-    font-size: 13px;
 }
 
 .lista-redes-sociais img {
-    width: 40px;
+    width: 2em;
 }
 
 .lista-redes-sociais ul {
@@ -71,7 +79,7 @@ li a {
 }
 
 .lista-apps img {
-    width: 140px;
+    width: 100%;
 }
 
 .logo {
@@ -80,7 +88,7 @@ li a {
 }
 
 .logo img {
-    width: 200px;
+    width: 110%;
 }
 
 
@@ -89,21 +97,24 @@ footer {
     align-items: center;
     justify-content: space-around;
     background-color: #0a5a80;
-    height: 50px;
+    height: 10vh;
+    width: 100vw;
     
 }
 
 footer p {
     color: #a1ddf8;
+    font-size: 1vw;
+    margin-left: 3vw;
 }
 
 footer ul {
     display: flex;
     color: white;
     list-style-type: none;
-    font-size: 13px;
+    font-size: 1vw;
 }
 
 footer li {
-    margin-left: 30px;
+    margin-left: 2vw;
 }
