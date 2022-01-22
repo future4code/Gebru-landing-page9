@@ -1,10 +1,10 @@
-*{
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   border: none;
-  }
- 
+  } 
+  
 .header {
   background-color: rgb(239, 245, 247); 
    display: flex; 
@@ -31,6 +31,7 @@
   } 
   
   main{
+     
     background-color: rgb(15, 46, 54);
       color: #fafcfd;
       text-align: center;
@@ -79,30 +80,32 @@ font-size: 25px;
     } 
     
     aside{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
       background-color: rgb(15, 46, 54);
         font-family: 'Indie Flower', cursive;
         color: #fafcfd;
         text-align: center;
-        font-size: 10px;
+        font-size: 15px;
        
       
     }
   
-  aside{    
+   /* aside{    
     
      display: grid;
   grid-template-columns: repeat(2, 1fr);
   
-  }
-  
-  .imoveis{
+  }  */
+   
+  /* .imoveis{
    
       font-size: 25px;
    text-align:center;
      
   
   }
-  
+   */
   
 
  nav{
@@ -125,6 +128,7 @@ font-size: 25px;
      }
 
 .casa-compartilhada{
+   
     width: max-content;
     display: flex;
     flex-direction: column;
@@ -162,23 +166,14 @@ font-size: 25px;
         text-align: center;
     }
 
-    aside{
-        height: 250vh;
-        width: 99vw;
-        display:grid;
-        grid-template-columns: repeat(3, 1fr);
-        row-gap: 10vh;
-        column-gap: 20vh;
-        justify-items: center;
-        align-items: center;
-        background-color: rgb(15, 46, 54);
-        color: rgb(255, 255, 255);
+  
 
-    }
+   
+ 
 #page-casa-compartilhada > div {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60vh;
     justify-items: center;
     align-items: center;
 
@@ -360,6 +355,12 @@ footer li {
          justify-content: space-around;
         }
 
+        /* aside{
+            height: 250vh;
+            display: flex;
+          flex-direction: column;
+        } */
+        
         nav > section{
             height: 10vh;
             width: 8vh;
